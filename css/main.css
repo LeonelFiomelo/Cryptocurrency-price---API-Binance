@@ -1,5 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
 body {
-  background: #000;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  padding: 2.6rem 0;
+}
+
+.table {
+  width: 30rem;
+  margin-bottom: 1.4rem;
+  border-collapse: collapse;
+  background-color: #e0d6b6;
+}
+
+.table__head {
+  background-color: #da8321;
+}
+
+.table__item {
+  text-align: center;
+}
+
+.table__item--head {
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.table__item--body {
+  font-size: 1rem;
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
